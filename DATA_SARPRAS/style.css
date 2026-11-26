@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*halaman utama*/
+.header {
+    background: rgb(0, 67, 145);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    border-style:none;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+}
+
+.button-c {
+    background: white;
+    border-radius: 5px;
+    font-style: arial;
+    font-size:x-large;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+     background-color: rgb(54, 54, 54);
+     padding: 10px;
+     color: rgb(186, 185, 185);
+    display: flex;
+    justify-content: center;
+}
+
+/*form*/
+.form-create {
+    background: rgb(220, 219, 219);
+    padding: 50px;
+    width: 200px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
