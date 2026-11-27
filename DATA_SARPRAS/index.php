@@ -22,6 +22,7 @@ $hasil = mysqli_stmt_get_result($query);
     <div class="header">
         <h1>DATA SARPRAS</h1>
         <nav>
+        <!--search-->
             <form method="get">
                 <input type="text" name="cari" placeholder="Cari nama pelapor atau lokasi ruang..."
                     value="<?= htmlspecialchars($cari, ENT_QUOTES, 'UTF-8') ?>">
